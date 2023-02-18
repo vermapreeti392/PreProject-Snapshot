@@ -10,7 +10,7 @@ const [search, setSearch] = useState("");
 const navigate = useNavigate();
 const categorySearch =(event)=>{
 setCategory(event.target.innerText)
-navigate(`/${category}`)
+
 }
 useEffect(()=>{
     if(category){
@@ -19,7 +19,7 @@ useEffect(()=>{
     }
     if(search){
         searchImages(); 
-        navigate("/")       
+             
     }
     async function searchImages() {
         const apiKey = 'cc45789d14c6e1240b178e7d8650faf2';

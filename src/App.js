@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Routes>
       <Route path='/' element={<ImageSearch photos={photos} />}/>  
-      <Route path='/Mountain' element={<ImageSearch photos={photos} />}/>      
+      {/* <Route path='/Mountain' element={<ImageSearch photos={photos} />}/>      
       <Route path='/Beaches' element={<ImageSearch photos={photos} />}/>
       <Route path='/Birds' element={<ImageSearch photos={photos} />}/>      
-      <Route path='/Food' element={<ImageSearch photos={photos} />}/>
+      <Route path='/Food' element={<ImageSearch photos={photos} />}/> */}
       </Routes>
       </InputContext.Provider>
 
